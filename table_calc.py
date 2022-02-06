@@ -1,6 +1,5 @@
 print("\n******************* Python Calculator *******************")
 
-
 print("Selecione a  operacao desejada\n")
 
 print("1 - Soma")
@@ -15,20 +14,20 @@ if (operation == 1):
   number_two = int(input("Digite o segundo valor: "))
   print("Resultado: ", number_one + number_two)
 
-if (operation == 2):
+elif (operation == 2):
   number_one = int(input("Digite o primeiro valor: "))
   number_two = int(input("Digite o segundo valor: "))
   print("Resultado: ", number_one - number_two)
 
-if (operation == 3):
+elif (operation == 3):
   number_one = int(input("Digite o primeiro valor: "))
   number_two = int(input("Digite o segundo valor: "))
   print("Resultado: ", number_one * number_two)
 
-if (operation == 4):
+elif (operation == 4):
   number_one = int(input("Digite o primeiro valor: "))
   number_two = int(input("Digite o segundo valor: "))
   print("Resultado: ", number_one / number_two)
 
-if (operation >= 5):
+else:
   print("Operacao invalida")
