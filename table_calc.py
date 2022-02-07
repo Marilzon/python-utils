@@ -27,7 +27,10 @@ elif (operation == 3):
 elif (operation == 4):
   number_one = int(input("Digite o primeiro valor: "))
   number_two = int(input("Digite o segundo valor: "))
-  print("Resultado: ", number_one / number_two)
+  if (number_two < 1):
+    print("Nao e possivel dividir por numeros menores que 1")
+  else:
+    print("Resultado: ", number_one / number_two)
 
 else:
   print("Operacao invalida")
