@@ -8,4 +8,4 @@ while(response == "S"):
 
   print("o IP referente a url informada é: ", ip)
 
-  response = input("Digitte S para continuar: ").upper()
+  response = input("Digite S para continuar: ").upper()
