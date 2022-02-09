@@ -1,13 +1,13 @@
 class Book():
-  def __init__(self): #constructor
-      self.title = 'Guia desenvolvedor web' #attr
-      self.isbn = 878844 #attr
-      print('Construtor chamado para criar um objeto desta classe')
+  def __init__(self, title, release): #constructor
+      self.title = title #prop
+      self.release = release #prop
+      print('Construtor chamado para criar o objeto desta classe')
 
   def print(self): #method
-    print('Foi criado o livro %s e ISBN %d' %(self.title, self.isbn))
+    print('Foi criado o livro %s e lancamento %s' %(self.title, self.release))
 
-PythonBook = Book()
+DevGuide = Book('Guia desenvolvedor', '13/05/2022')
 
-print(type(PythonBook))
-print(PythonBook.print())
+print(type(DevGuide))
+print(DevGuide.print())
