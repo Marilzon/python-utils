@@ -2,3 +2,4 @@
 *.txt
 *.ipy*
 *__pycache__
+.editorconfig
