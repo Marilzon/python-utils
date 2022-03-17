@@ -15,3 +15,5 @@ except BaseException as err:
     print("Error:", err)
 else:
     print('Try, except passed')
+finally: # false or positive exception, this block ever execute
+    print('end of code')
