@@ -1,5 +1,5 @@
 import platform
-from datetime import datetime
+from datetime import date
 import getpass
 import socket
 
@@ -12,8 +12,7 @@ print('Processador: ', platform.processor())
 print('Versao do python: ', platform.python_version())
 print('IP Local: ', socket.gethostbyname(socket.gethostname()))
 
-print(
-  'Data: ',
-  datetime.now().day,"/",
-  datetime.now().month,"/",
-  datetime.now().year)
+# CONVERTING DATE STYLE TO BRAZILLIAN DEFAULT
+
+actual_date = date.today()
+print('Data da consulta: ', actual_date.strftime('%d/%m/%Y'))
