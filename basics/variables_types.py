@@ -2,10 +2,10 @@ a = 1
 b = '2'
 c = False
 d = complex(5, 6) # math complex number expression
-e = ["This", "is", "a", "list"]
-f = ("This", "is", "a", "tuple")
-g = {1:"This", 2:"is", 3:"a", 4:"Dictionary"}
-h = {"This", "is", "a", "a", "Set"}
+e = ["This", "is", "a", "list"] # Keys
+f = ("This", "is", "a", "tuple") # Tuple
+g = {1:"This", 2:"is", 3:"a", 4:"Dictionary"} #Dictionary
+h = {"This", "is", "a", "a", "Set"} # Set
 
 print(30 * "-")
 """

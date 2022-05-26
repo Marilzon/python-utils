@@ -1,3 +1,6 @@
+import os
+os.system('clear')
+
 cars = ["HRV", "GOLF", "ARGO", "CRUZE"]
 
 for car in cars:
@@ -14,5 +17,10 @@ for letter in github:
     space = count * " "
     print(space, letter)
 print("tobogã link :)")
+
+g = {1:"This", 2:"is", 3:"a", 4:"Dictionary", 5:"loop"} #Dictionary
+for key, value in g.items():
+    print(30 * '-')
+    print('| key: ', key, '|','value:', value)
 
 
