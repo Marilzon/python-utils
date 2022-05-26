@@ -4,7 +4,7 @@ import os
 error_count = 0
 winner_number = random.randrange(0, 100)
 
-player_number = int(input("Input a NUMBER: "))
+player_number = int(input("Input the NUMBER: "))
 while player_number != winner_number:
     error_count += 1
     os.system("clear")
