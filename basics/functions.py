@@ -1,14 +1,14 @@
 import datetime
+import getpass
 
-def hello():
-    print("Hello py develoṕer")
-    print("\n")
+def hello(user):
+    print("Hello py develoṕer: ", user)
 
-def now():
-    print(datetime.datetime.now())
+def now(date):
+    print(date)
 
 def app():
-    hello()
-    now()
+    hello(getpass.getuser())
+    now(datetime.datetime.now())
 
 app()
