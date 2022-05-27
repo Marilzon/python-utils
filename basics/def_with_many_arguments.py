@@ -1,15 +1,16 @@
 def bigsum(*values):
     for value in values:
         result = value + value
-    print(result)
+    return (result)
 
-bigsum(1,2,3,4,5)
 
 def biglist(*values):
     result_list = []
     for value in values:
         result_list.append(value)
-    print(result_list)
-    print(type(result_list))
+    return (result_list)
 
-biglist("Marilzon", "Python", "Developer", "and", "data", "specialist")
+
+
+print(bigsum(1,2,3,4,5))
+print(biglist("Marilzon", "Python", "Developer", "and", "data", "specialist"))
