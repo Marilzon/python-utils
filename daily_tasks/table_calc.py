@@ -1,7 +1,5 @@
 
 def table_calc():
-    import os
-    os.system("clear")
     print("\n******************* Python Calculator *******************")
     print("Selecione a  operacao desejada\n")
     print("1 - Soma")

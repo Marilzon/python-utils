@@ -10,7 +10,5 @@ def biglist(*values):
         result_list.append(value)
     return (result_list)
 
-
-
 print(bigsum(1,2,3,4,5))
 print(biglist("Marilzon", "Python", "Developer", "and", "data", "specialist"))
